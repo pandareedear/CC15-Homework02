@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        * {
+            font-size: 35px;
+            font-family: sans-serif;
+        }
+
+        .card {
+            border: 1px solid silver;
+            border-radius: 10px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            /* justify-items: center; */
+            /* align-items: center; */
+            position: relative;
+            box-shadow: 10px 10px 40px 0px rgba(119, 119, 119, 0.75);
+            margin: auto;
+        }
+
+        .profile {
+            width: 100%;
+            height: 260px;
+            border-bottom: 1px solid silver;
+            margin-top: 20px;
+
+
+        }
+
+        .Exit {
+            position: absolute;
+            color: slategray;
+            margin: 0;
+            left: 0;
+            padding: 2%;
+            font-size: 20px;
+        }
+
+        .Noti {
+            width: 30px;
+            height: 30px;
+            background-color: rgb(255, 31, 31);
+            border-radius: 30px;
+            position: absolute;
+            top: -11%;
+            right: -11%;
+            text-align: center;
+            padding: 5%;
+            color: white;
+            font-size: 25px;
+            box-sizing: content-box;
+        }
+
+        .container > p {
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="card">
+        <p class="Exit">X</p>
+        <p class="Noti">9</p>
+        <img class="profile " src="human-man-10.svg" alt="profile">
+        <div class="container">
+            <p>A.Rudiger</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
